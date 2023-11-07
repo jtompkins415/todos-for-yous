@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles.css" rel="stylesheet">
+    <!-- Google Fonts: Jost -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,600;0,900;1,300&display=swap" rel="stylesheet">
+    <title>To-Dos For Yous</title>
+</head>
+<body>
+    <header id="title-container">
+        <h1 id="site-title">To-Dos For Yous</h1>
+    </header>
+    <main id="main-container">
+        
+        <section id="form-container">
+            <div id="form-title-container">
+                <h2 id="form-title">Enter Your To-Dos Below:</h2>
+            </div>
+            <form id="todo-form">
+                <div class="input-container">
+                    <label for="taskTitle" class="input-label">Task Title: </label>
+                    <input type="text" id="taskTitle" name="taskTitle" class="form-input" >
+                </div>
+                <div class="input-container">
+                    <label for="taskDescription" class="input-label">Task Description: </label>
+                    <input type="text" id="taskDescription" name="taskDescription" class="form-input" >
+                </div>
+                <div id="button-container">
+                    <button type="submit" id="submit-button">Add To-Do</button>
+                </div>
+            </form>
+        </section>
+        <section id="task-container">
+            <div id="task-heading-container">
+                <h2 id="task-heading">To-Dos:</h2>
+            </div>
+
+        </section>
+        
+    </main>
+    <div class="footer-container">
+        <footer id="author-footer">CodedByTompkins</footer>
+    </div>
+    <script src="./todoScript.js"></script>
+</body>
+</html>

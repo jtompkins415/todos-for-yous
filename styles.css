@@ -1,0 +1,167 @@
+html, body {
+    height: 100vh;
+    background-color: #94E2E6;
+}
+
+/* HEADER STYLES */
+#title-container {
+    width: 50%;
+    margin: 3rem auto 0 auto;
+    text-align: center;
+}
+
+#site-title {
+    margin: 0 auto 3rem auto;
+    font-family: 'Jost', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+#main-container {
+    width: 75%;
+    height: 100%;
+    margin: 0 auto 0 auto;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FORM STYLES */
+
+#form-container {
+    margin: 0 auto;
+    width: 50%;
+    height: 35%;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+#form-title-container {
+    width: 75%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+#form-title{
+    font-family: 'Jost', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#todo-form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.input-container {
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.input-label {
+    margin: 0 auto 0 auto; 
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+}
+
+.form-input {
+    display: block;
+    margin: 5px auto 5px auto; 
+}
+
+#button-container {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+#submit-button {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 1rem;
+    background-color: #E6C17C;
+}
+
+/* TO-DO STYLES */
+.new-task {
+    margin: 2rem auto;
+}
+#task-container {
+    margin: 3rem auto;
+}
+
+#task-heading-container {
+    width: 45%;
+    text-align: start;
+}
+
+#task-heading {
+    font-family: 'Jost', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+.task-title-container {
+    margin: .3rem auto;
+}
+
+.task-title {
+    font-family: 'Jost', sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.task-description-container {
+    margin: .3rem auto 1rem auto;
+}
+
+.task-description {
+    font-family: 'Jost', sans-serif;
+    font-size: 1.2rem;
+}
+
+.complete-button-container {
+    display: inline;
+    width: 50%;
+    margin-right: .5rem;
+}
+
+.complete-button {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 1rem;
+    background-color: #72C269;
+}
+
+.remove-button-container {
+    display: inline;
+    width: 50%;
+    margin-left: .5rem;
+}
+
+.remove-button {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 1rem;
+    background-color: #E6B0AA;
+}
+
+/* FOOTER STYLES */
+.footer-container {
+    display: block;
+}
+#author-footer {
+    font-family: 'Jost', sans-serif;
+    font-weight: 900;
+}
